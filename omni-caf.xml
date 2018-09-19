@@ -8,6 +8,9 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
+  <remote  name="TwrpBuilder"
+           fetch="https://github.com/TwrpBuilder" />
+
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="omnirom" revision="android-7.1" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="omnirom" revision="android-7.1" />
 </manifest>
